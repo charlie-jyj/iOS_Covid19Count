@@ -180,9 +180,9 @@ https://github.com/danielgindi/Charts
 https://weeklycoding.com/mpandroidchart-documentation/
 
 #### (4) escaping closure
-> 클로저가 함수를 탈출한다.
+> closure 가 함수를 탈출한다.
 
-- 클로저가 전달인자로 전달되지만 
+- closure가 전달인자(args)로 전달되지만 
 - 함수가 return된 후에 클로저의 내용이 실행 (인자가 함수 영역을 탈출하여 함수 바깥에서 사용)
 - 기존 변수의 scope 개념 무시 (함수 블록 안의 local 영역을 뛰어 넘어 사용되기 때문)
 - 주로 비동기 작업할 경우 completion handler 에서 사용
@@ -214,9 +214,9 @@ Table view content : dynamic prototypes => static cells
 Datasource 와 delegate 프로토콜을 처음부터 채택하고 있다.
 필수 구현 함수들이 override 되어 있고 delegate 함수들도 주석 처리 되어있다.
 
--Result<Class, Protocol>
+- Result<Class, Protocol>
 
--Alarmofire의 responseData 메서드의 completionHandler는 main thread 에서 동작한다.
+- Alarmofire의 responseData 메서드의 completionHandler는 main thread 에서 동작한다.
 
 - indicatorView
     - startAnimating() : fetch 전에 call
